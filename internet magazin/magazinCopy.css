@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4c6649;
+}
+
+.wrapper {
+  margin: auto;
+  width: 90%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header {
+  height: 200 px;
+  background-color: #2a3b2c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.magazin {
+  font-weight: bold;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav {
+  padding: 10 px;
+  min-width: 200 px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 25%;
+  color: rgb(255, 255, 255);
+  background-color: #a69c8b;
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  color: white;
+  background-color: #938199;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #938199;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.productDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.productDiv p {
+  border: #2a3b2c solid;
+  border-radius: 15%;
+  padding: 15px;
+}
+
+

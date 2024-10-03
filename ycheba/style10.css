@@ -1,0 +1,63 @@
+html {
+  color: #463f3a;
+  font: 18px/1.5 sans-serif;
+}
+
+body {
+  width: 980px;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  color: #e07a5f;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  vertical-align: middle;
+}
+
+.article {
+  column-count: 2;
+  column-gap: 50px;
+  column-width: 50px;
+  column-rule: 1px solid black;
+}
+
+.applicants {
+  column-count: 2;
+  margin: 50px 0;
+  padding: 20px;
+
+  color: #f4f1de;
+
+  column-span: all;
+
+  text-align: left;
+
+  background: #3d405b;
+}
+
+.applicants-header {
+  column-span: all;
+
+  /* Выше можно написать решение */
+}
+
+.member-name {
+  margin: 20px 0 0;
+
+  font-weight: bold;
+}

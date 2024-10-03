@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь</title>
+    <link rel="stylesheet" href="styleforma.css">
+</head>
+
+<body>
+    <form class="block-center form">
+        <h1>Обратная связь</h1>
+        <div class="form-input">
+            <div class="mb-2">
+                <label for="name" class='sr-only'>Ваше имя</label>
+                <input type="text" name="name" id="name" placeholder="Ваше имя">
+            </div>
+            <div class="mb-2">
+                <label for="email" class='sr-only'>Ваш email</label>
+                <input type="email" name="email" id="email" placeholder="Ваш email">
+            </div>
+            <div class="mb-2">
+                <label for="text" class='sr-only'>Ваше сообщение</label>
+                <textarea name="text" id="text" placeholder='Ваше сообщение'></textarea>
+            </div>
+        </div>
+        <div class="send">
+            <div class="mb-1 small">
+                <input type="checkbox" name="checked" id="send">
+                <label for="send">Согласие на обработку персональных данных</label>
+            </div>
+            <button class="btn btn-green">Отправить сообщение</button>
+        </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

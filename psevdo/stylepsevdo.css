@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font: 18px/1.5 sans-serif;
+}
+
+.profile-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.profile-card h2 {
+   border-bottom: 2px #ccc;
+   padding-bottom: 5px;
+ 
+   
+}
+
+.profile-card h2::before {
+  content: "👤";
+  
+    margin-right: 5px; 
+
+ 
+}
+
+.profile-card h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+
+.profile-card p::first-letter {
+font-size: 1.5em;
+color: #6936f4;
+font: bold;
+
+}
+
+/* задание сложное */

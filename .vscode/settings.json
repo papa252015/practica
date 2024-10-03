@@ -1,0 +1,13 @@
+{
+  "editor.unicodeHighlight.allowedCharacters": {
+    "ru": true
+  },
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+  },
+  "cSpell.language": "en, ru, lorem",
+  "cSpell.languageSettings": [],
+  "workbench.editor.languageDetection": true,
+  "cSpell.caseSensitive": false,
+  "editor.autoClosingQuotes": "always"
+}
